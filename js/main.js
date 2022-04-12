@@ -12,7 +12,6 @@ let frase = prompt("ingresa una frase");
 let nveces = parseFloat(prompt("ingresa el numerode veces a repetir"));
 
 for (let i = 1; i <= nveces; i+=1) {
-    innerHTML (frase + i);
-    
+    console.log(frase + " " + i);
+    document.write(frase + " " + i + "<br>");
 }
-
